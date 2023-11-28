@@ -1,9 +1,15 @@
 package org.example;
 
+ SandwichUpdate
 import java.util.*;
 
 public class UserInterface {
     Scanner scanner = new Scanner(System.in);
+=======
+import java.util.Scanner;
+
+public class UserInterface {
+ master
     public void display() {
         boolean isRunning = true;
         Scanner scanner = new Scanner(System.in);
@@ -63,6 +69,7 @@ public class UserInterface {
     }
 
     private void processAddSandwich() {
+ SandwichUpdate
         System.out.println("Building a sandwich!");
 
         System.out.println("What type of bread would you like?");
@@ -173,6 +180,11 @@ public class UserInterface {
     }
 
 
+=======
+
+    }
+
+master
     private void processAddDrink() {
 
     }
@@ -186,3 +198,7 @@ public class UserInterface {
     }
 
 }
+ SandwichUpdate
+=======
+
+ master

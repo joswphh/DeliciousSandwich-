@@ -3,6 +3,7 @@ package org.example;
 import java.util.List;
 
 public class Sandwich {
+ SandwichUpdate
     private BreadType bread;
     private List<String> topping;
     private SandwichSize size;
@@ -66,4 +67,12 @@ public class Sandwich {
     public void setToasted(boolean toasted) {
         isToasted = toasted;
     }
+=======
+    private  String breadName;
+    private String breadPrice;
+    private List<Topping> toppings;
+    private List<Sauce> sauce;
+    private SandwichSize size;
+
+ master
 }
